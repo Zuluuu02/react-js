@@ -33,7 +33,7 @@ function Sidebar() {
      }
      
     return (
-      <aside className="bg-gray-200 w-64 px-4 py-8">
+      <aside className="bg-gradient-to-b from-blue-900 to-gray-400 w-64 px-4 py-8">
         <h2 className="text-lg font-semibold mb-4">Sidebar</h2>
         {NavLinkFunction()}
       </aside>
